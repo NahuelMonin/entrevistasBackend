@@ -6,22 +6,19 @@ module.exports = () => {
   
   const connect = () => {
   
-    mongoose.connect(
-      DB_URI, 
-      {
-        keepAlive: true,
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-      },
-      (err) => {
-        if(err){
-          console.log('DB ERROR: ' + err);
-        } else {
-          console.log('Conexion a la DB con exito!');
-        }
-      }
-    )
-  }
+    try {
+        console.log(DB_URI);
+        await mongoose.connect(
+            process.env.DB_CNN, {
+                useNewUrlParser: true,
+                useUnifiedTopology: true
+            });
+        console.log('DB Online');
+    } catch (error) {
+        console.error(error);
+        throw new Error('Error a la hora de inicar la BD ver logs')
+    }
+}
 
   connect();
 }
