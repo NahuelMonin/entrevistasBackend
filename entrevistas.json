@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombreEntrevistado": "Nahuel Monin",
+        "fecha": "17/02/2022 15:30",
+        "realizada": false
+    },
+    {
+        "id": 2,
+        "nombreEntrevistado": "Mauricio Zanon",
+        "fecha": "17/02/2022 15:30",
+        "realizada": false
+    },
+    {
+        "id": 3,
+        "nombreEntrevistado": "Leopoldo Flores",
+        "fecha": "01/02/2022 14:30",
+        "realizada": false
+    },
+    {
+        "id": 4,
+        "nombreEntrevistado": "Federico Lotitto",
+        "fecha": "05/02/2022 13:00",
+        "realizada": false
+    },
+    {
+        "id": 5,
+        "nombreEntrevistado": "Nicolas Cancela",
+        "fecha": "05/02/2022 13:00",
+        "realizada": false
+    },
+    {
+        "id": 6,
+        "nombreEntrevistado": "Damian Romero",
+        "fecha": "05/02/2022 13:00",
+        "realizada": false
+    },
+    {
+        "id": 7,
+        "nombreEntrevistado": "Federico Hipperdinger",
+        "fecha": "05/02/2022 13:00",
+        "realizada": true
+    }
+]
